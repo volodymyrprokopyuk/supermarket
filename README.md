@@ -96,6 +96,7 @@ var addItemsToChart = function() {
 
 ```bash
 $ git clone https://github.com/volodymyrprokopyuk/supermarket.git
+$ cd supermarket
 $ npm install
 $ node main.js
 ```
