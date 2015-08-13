@@ -1,5 +1,9 @@
 # Supermarket checkout application
 
+Supermarket checkout application implements items checkout rules application
+strategy using JavaScript functional programming library
+[lodash](https://lodash.com/).
+
 ## Problem
 
 Implement a Supermarket checkout that calculates the total price of a number of
@@ -29,8 +33,8 @@ to the same `Item`.
 The main idea of the solution is to apply a `rules` function collection to the
 `items` array setting a `discounted` field to `true` of the processed `Item`.
 
-Applying functions over a list of data is very powerful and flexible functional
-abstraction which permits adding new rules trivial.
+Applying functions over a list of data is very **powerful and flexible
+functional abstraction** which permits adding new rules trivial.
 
 ## Input
 
